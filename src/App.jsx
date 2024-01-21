@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css"
-import Auth from "./components/auth";
+
 import { db, auth } from './config/firebase';
 import {
   getDocs,
@@ -10,6 +10,7 @@ import {
   updateDoc,
   doc,
 } from "firebase/firestore";
+import Auth from "./components/Auth";
 
 function App() {
 
